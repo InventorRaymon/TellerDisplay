@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../../public/assets/font/Roboto-Medium.ttf") format("truetype");
+}
+
+.logo .h1{
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.login-form .btn {
+  padding: 10px 0;
+  font-size: 1.2em;
+}
+
+.login-form .btn-outline-light {
+  width: 80px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.gap{
+  gap: 7rem;
+}
+
+.header {
+  font-size: 40px;
+}
+
+.input-height {
+  height: 50px;
+}
+
+
+@media screen and (max-width: 1603px) {
+  .left img {
+    width: 700px;
+    /* left: 70% !important; */
+  }
+}
+
+@media screen and (max-width: 1221px) {
+  .left img {
+    width: 500px;
+    /* left: 70% !important; */
+  }
+}
+@media screen and (max-width: 809px) {
+  .newWidth {
+    width: 100% !important;
+    /* align-items: center !important; */
+  }
+  .left img {
+    display: none !important;
+  }
+  .form {
+    align-self: center;
+  }
+}
+
+.image {
+  margin: 0;
+  padding: 0;
+  background: url('../../public/assets/img/landing.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app {
+  width: 100%;
+}
+
+.get-started {
+  background: linear-gradient(5deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+  border-radius: 23px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 239px;
+  margin-top: 68px;
+  height: 50px;
+}
+
+.get-started-p {
+  color: rgb(232, 232, 232);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
